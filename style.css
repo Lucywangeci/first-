@@ -1,0 +1,56 @@
+body{
+    background: #34489a;
+    font-family: "Calisto MT", "Century Gothic", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+}
+form {
+        border: 2px solid #7E7B7BFF;
+        padding: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #f5f5f5;
+        box-shadow: 0 8px 30px 0 rgba(0,0,0,0.2);
+
+    }
+
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        color: #333;
+        font-size: 36px;
+    }
+
+    label {
+        font-weight: bold;
+        color: #666;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+        width: 90%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+    }
+    .form-contents {
+                border: 2px solid #c7c5c5;
+                padding: 10px;
+                margin: 5px;
+    }
+
+    select {
+        color: rgba(180, 217, 122, 0.92);
+        background-color: #3F5B0CEA;
+        border: 1px solid #9a3434;
+    }
+
+    button {
+        background-color: #34489a;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }

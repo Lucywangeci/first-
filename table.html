@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <style>
+
+        body {
+            font-family: "Calisto MT", "Century Gothic", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+        }
+        th,td {
+            font-size: 40px;
+        }
+        table{
+                border-bottom: #349163FF 2px solid;
+                border-collapse: separate;
+                border-spacing: 0;
+                margin: 0;
+                padding: 0;
+                width: 800px;
+                height:500px;
+            }
+        thead{
+            width: 50px;
+            height: 60px;
+        }
+            thead, th{
+                background: #349163FF;
+                color: white;
+            }
+            th{
+
+            }
+            tr {
+                border-bottom: 3px solid #ddd;
+            }
+            tr .class2 td {
+            background-color: #349163FF;
+            }
+            th:first-child {
+                border-radius: 10px 0 0 0;
+            }
+            th:last-child {
+                border-radius: 0 10px 0 0;
+            }
+            tr:nth-child(even) {
+                background-color: #ececec;
+            }
+
+
+    </style>
+</head>
+<body>
+
+<table>
+
+    <thead>
+       <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Points</th>
+            <th>Team</th>
+       </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>1</td>
+            <td>Domestic</td>
+            <td>88,110</td>
+            <td>dcode</td>
+        </tr>
+
+        <tr class="class2">
+            <td>2</td>
+            <td>Sally</td>
+            <td>72,400</td>
+            <td>Students</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+        </tr>
+
+    </tbody>
+
+
+
+
+</table>
+
+
+</body>
+</html>
